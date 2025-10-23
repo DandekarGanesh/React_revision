@@ -1,10 +1,9 @@
+import PrintName from "./Components/PrintName"
 
 
 function App() {
   return (
-    <h1>
-       Ganesh Dandekar
-    </h1>
+     <PrintName> </PrintName>
   )
 }
 
