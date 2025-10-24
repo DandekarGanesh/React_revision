@@ -1,8 +1,8 @@
 
-function PrintName() {
+function PrintName({name}) {
     return (
         <>
-         <h1> Ganesh Dandekar .... #React Revision </h1>
+         <h1> {name} Dandekar .... #React Revision </h1>
         </>
     )
 }
