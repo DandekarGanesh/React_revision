@@ -1,16 +1,10 @@
-import PrintName from "./Components/PrintName"
-import LoginPage from "./Components/LoginPage"
+import CounterGame from "./Components/CounterGame"
 
 
 function App() {
   return ( 
     <>
-      <PrintName name={"Ganesh"}/> 
-      <LoginPage> </LoginPage>
-      <LoginPage> </LoginPage>
-      <LoginPage> </LoginPage>
-      <LoginPage> </LoginPage>
-      <LoginPage> </LoginPage>
+        <CounterGame></CounterGame>   
     </>
   )
 } 
